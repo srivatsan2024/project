@@ -8,7 +8,7 @@ public class DbConnection {
 	private static String User = "projects";
 	
 	public static DbConnection () {
-		String uri = "jdbc:mysql://localhost:3306/testdb";
+		String uri = "jdbc:mysql://localhost:3306/testdb?allowPublicKeyRetrieval=true&useSSL=true";
 		String username = "project";
 		String password = "Passw0rd";
 		
